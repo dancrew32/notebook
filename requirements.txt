@@ -1,2 +1,16 @@
 jupyter
-
+numpy
+scipy
+matplotlib
+ipython
+pandas
+sympy
+scikit-learn
+nose
+requests
+scrapy
+boto3
+toolz
+flask
+Pillow
+wxPython

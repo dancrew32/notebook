@@ -1,3 +1,5 @@
+make:
+	vim makefile
 
 venv:
 	virtualenv -p python3 venv
@@ -7,3 +9,9 @@ deps:
 
 run:
 	./venv/bin/jupyter notebook
+
+shell:
+	./venv/bin/ipython
+
+scrape:
+	./venv/bin/scrapy runspider crawlers/example.py -s LOG_FILE=crawlers/example.log
