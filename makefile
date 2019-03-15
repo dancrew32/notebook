@@ -10,8 +10,8 @@ deps:
 run:
 	./venv/bin/jupyter notebook
 
+lab:
+	./venv/bin/jupyter lab
+
 shell:
 	./venv/bin/ipython
-
-scrape:
-	./venv/bin/scrapy runspider crawlers/example.py -s LOG_FILE=crawlers/example.log

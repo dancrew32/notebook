@@ -1,4 +1,5 @@
 jupyter
+jupyterlab
 numpy
 scipy
 matplotlib
@@ -8,9 +9,8 @@ sympy
 scikit-learn
 nose
 requests
-scrapy
+requests-html
 boto3
 toolz
 flask
 Pillow
-wxPython
