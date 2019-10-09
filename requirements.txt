@@ -5,12 +5,12 @@ scipy
 matplotlib
 ipython
 pandas
-sympy
-scikit-learn
-nose
 requests
-requests-html
-boto3
-toolz
-flask
 Pillow
+scikit-learn
+tensorflow
+keras
+vaderSentiment
+spacy
+spacy-lookups-data
+# python -m spacy download en_core_web_sm
